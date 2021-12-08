@@ -1,14 +1,19 @@
 * {
+    /* Turns this element into a border-box */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* sets background colour of body to white */
     background-color: #d9dcd6;
 }
 
+
 .header {
+    /* sets the padding to 20px top, right, bottom, left */
+    /* sets the background color to value #266381 and font color to white  */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #266381;
@@ -16,7 +21,9 @@ body {
 }
 
 .header h1 {
+    /* Displays h1 elements to be inline, horizontally */
     display: inline-block;
+    /* sets font-size to 50px */
     font-size: 50px;
 }
 
@@ -25,6 +32,7 @@ body {
 }
 
 .header nav {
+    /* Displays navigation bars on the right */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,10 +41,12 @@ body {
 }
 
 .header nav ul {
+    /* unordered list has no defined style */
     list-style-type: none;
 }
 
 .header nav ul li {
+    /* sets navigation to be displayed inline */
     display: inline-block;
     margin-left: 25px;
 }
@@ -47,96 +57,130 @@ a {
 }
 
 p {
+    /* set the paragraph font-size to 16px */
     font-size: 16px;
 }
 
 .hero {
+    /* Set height of hero image to be 800px and width to be 100% of screen size */
+    /* Sets the margin-bottom to 25px */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /* scales background size in order to fill container */
     background-size: cover;
     background-position: center;
 }
 
 .float-left {
+    /* sets image position to the left of the container */
     float: left;
+    /* sets the margin to 25px */
     margin-right: 25px;
 }
 
 .float-right {
+    /* sets image positin to the right of the container */
     float: right;
+    /* sets the margin to 25px */
     margin-left: 25px;
 }
 
 .content {
+    /* sets the width of the class content to 75% of the screen */
     width: 75%;
+    /* sets the content to display inline */
     display: inline-block;
+    /* sets the margin to 20px */
     margin-left: 20px;
 }
 
 .benefits {
+    /* sets margin to be 20px */
     margin-right: 20px;
+    /* sets padding to 20px */
     padding: 20px;
+    /* ? */
     clear: both;
     float: right;
+    /* sets width to 20% of screen size */
     width: 20%;
+    /* sets height to 100% of screen size */
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 .benefit-lead {
+    /* sets margin bottom to 32px and font color to white */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+    /* sets margin bottom to 32px and font color to white */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    /* sets margin bottom to 32px and font color to white */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-lead h3 {
+    /* sets margin bottom to 10px and aligns the text in the center of the container */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-brand h3 {
+    /* sets margin bottom to 10px and aligns the text in the center of the container */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
+    /* sets margin bottom to 10px and aligns the text in the center of the container */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
+    /* sets the icon to display block */
     display: block;
-    margin: 10px auto;
+    /* sets the top and bottom margin to 10px and centers the icon on the horizontal axis of the container */
+    margin: 10px;
+    /* sets the maximum width of the icon to be 150px */
     max-width: 150px;
 }
 
 .benefit-brand img {
+    /* sets the icon to display block */
     display: block;
+    /* sets the top and bottom margin to 10px and centers the icon on the horizontal axis of the container */
     margin: 10px auto;
+    /* sets the maximum width of the icon to be 150px */
     max-width: 150px;
 }
 
 .benefit-cost img {
+    /* sets the icon to display block */
     display: block;
+    /* sets the top and bottom margin to 10px and centers the icon on the horizontal axis of the container */
     margin: 10px auto;
+    /* sets the maximum width of the icon to be 150px */
     max-width: 150px;
 }
 
 .search-engine-optimization {
+    /* sets margin bottom to be 20px */
     margin-bottom: 20px;
+    /* sets padding all around to be 50px */
     padding: 50px;
+    /* sets height of the container to 300px */
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -144,8 +188,11 @@ p {
 }
 
 .online-reputation-management {
+    /* sets margin bottom to be 20px */
     margin-bottom: 20px;
+    /* sets padding all around to be 50px */
     padding: 50px;
+    /* sets height of the container to 300px */
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -153,8 +200,11 @@ p {
 }
 
 .social-media-marketing {
+    /* sets margin bottom to be 20px */
     margin-bottom: 20px;
+    /* sets padding all around to be 50px */
     padding: 50px;
+    /* sets height of the container to 300px */
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -162,39 +212,52 @@ p {
 }
 
 .search-engine-optimization img {
+    /* sets max height of image to be 200px */
     max-height: 200px;
 }
 
 .online-reputation-management img {
+    /* sets max height of image to be 200px */
     max-height: 200px;
 }
 
 .social-media-marketing img {
+    /* sets max height of image to be 200px */
     max-height: 200px;
 }
 
 .search-engine-optimization h2 {
+    /* sets margin bottom to 20px */
     margin-bottom: 20px;
+    /* sets font size of h2 to 36px */
     font-size: 36px;
 }
 
 .online-reputation-management h2 {
+    /* sets margin bottom to 20px */
     margin-bottom: 20px;
+    /* sets font size of h2 to 36px */
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
+    /* sets margin bottom to 20px */
     margin-bottom: 20px;
+    /* sets font size of h2 to 36px */
     font-size: 36px;
 }
 
 .footer {
+    /* sets padding to be 30px all around */
     padding: 30px;
+    /* ? */
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* aligns text in the center of the page */
     text-align: center;
 }
 
 .footer h4 {
+    /* sets font-size of h4 element to 20px */
     font-size: 20px;
 }
