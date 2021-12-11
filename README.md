@@ -12,8 +12,8 @@ From this project I learnt how to properly style a HTML file in the correct form
 
 ```
 AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+I have a codebase that follows accessibility standards
+Our website is now optimized for search engines
 ```
 
 ## Acceptance Criteria
@@ -32,9 +32,26 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 
-## Mock-Up
+## Appearance
+
+The webpage begins with a header on the left and a navigation bar on the right
+We then have a large image showing four people working collaboratively
+On the left-hand side of the page we have a section of containers with images and text
+On the right-hand side of the page we have another section with icons and text
+At the bottom of the page we have a footer
 
 The following image shows the web application's appearance and functionality:
 
 ! ![Websitescreenshot](https://user-images.githubusercontent.com/94229291/145682135-447c34d1-3159-41fc-91b9-a44cc1bdd17b.jpg)
+
+
+## Usage
+
+The following URL will take you directly to the webpage:
+
+
+
+## Credits
+
+University of Birmingham Coding Bootcamp
 
