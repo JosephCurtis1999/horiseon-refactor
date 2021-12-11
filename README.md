@@ -36,4 +36,5 @@ THEN I find a concise, descriptive title
 
 The following image shows the web application's appearance and functionality:
 
-! [home-page-screenshot]
+! ![Websitescreenshot](https://user-images.githubusercontent.com/94229291/145682135-447c34d1-3159-41fc-91b9-a44cc1bdd17b.jpg)
+
