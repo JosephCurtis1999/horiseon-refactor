@@ -42,12 +42,12 @@ At the bottom of the page we have a footer
 
 The following image shows the web application's appearance and functionality:
 
-! ![Websitescreenshot](https://user-images.githubusercontent.com/94229291/145682135-447c34d1-3159-41fc-91b9-a44cc1bdd17b.jpg)
+![Websitescreenshot](https://user-images.githubusercontent.com/94229291/145682135-447c34d1-3159-41fc-91b9-a44cc1bdd17b.jpg)
 
 
 ## Usage
 
-The following URL will take you directly to the webpage:
+The following URL will take you directly to the webpage: https://josephcurtis1999.github.io/horiseon-refactor/
 
 
 
